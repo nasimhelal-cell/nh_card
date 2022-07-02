@@ -18,7 +18,15 @@
     animation: rotate 1.5s linear infinite;
     background: linear-gradient(limegreen, yellow, hotpink);
 }
+@keyframes rotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
 
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
 .btn6:before {
     transition-property: color, background;
     transition-duration: 1000ms;

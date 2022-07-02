@@ -19,7 +19,7 @@ section.cards {
     border-radius: .75em;
     text-align: center;
     box-shadow: 17px 17px 34px #d3d1d1,
-        -17px -17px 34px #ffffff;
+        -17px -17px 34px #f3f0f0;
     padding: 2em 3em;
     width: 22em;
 }
