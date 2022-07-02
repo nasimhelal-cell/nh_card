@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Inspiration&family=Roboto:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.cards {
+    background: #E0E0E0;
+    padding: 3em 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+
+    border-radius: .75em;
+    text-align: center;
+    box-shadow: 17px 17px 34px #d3d1d1,
+        -17px -17px 34px #ffffff;
+    padding: 2em 3em;
+    width: 22em;
+}
+
+.card img {
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    object-fit: cover;
+    outline: 2px solid #0bd491;
+    outline-offset: 3px;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.card_context {
+    margin-top: 2em;
+}
+
+.card_context h2 {
+    color: #0bd491;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card_context span {
+    color: rgb(236, 62, 62);
+    letter-spacing: 1px;
+    font-family: 'Gentium Book Plus', serif;
+    display: block;
+}
+
+.card_context p {
+    margin: 10px 0;
+    font-family: 'Gentium Book Plus', serif;
+}
